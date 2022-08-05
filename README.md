@@ -1,4 +1,4 @@
-Hello there, I'm Juliano Marcelino, and I have the ability to turn coffee into code
+Hello there, I'm Juliano Marcelino, always enhancing the ability to turn coffee into code
 
 ```python
 class ojmarcelino():
