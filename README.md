@@ -1,16 +1,22 @@
 ```python
-class ojmarcelino():
-    
-  def __init__(self):
-    self.name     = "Juliano Marcelino";
-    self.location = "SC, Brazil";
-    self.linkedin = "linkedin.com/in/ojmarcelino/";
-    self.web      = "jmarcelino.com.br";
-    self.telegram = "t.me/ojmarcelino";
-  
-  def __str__(self):
-    return self.name
+class ojmarcelino:
+    def __init__(self):
+        self.data = {
+            "name": "Juliano Marcelino",
+            "location": "SC, Brazil",
+            "linkedin": "linkedin.com/in/ojmarcelino/",
+            "web": "jmarcelino.com.br",
+            "telegram": "t.me/ojmarcelino",
+            "mail": "juliano at jmarcelino dot com dot br"
+        }
 
-if __name__ == '__main__':
-    me = ojmarcelino()
+    def bio(self):
+        bio_text = f"""
+          Greetings, I'm {self.data['name']}, and enjoy to solve problems using 
+          technology that improves knowledge on a major scale.
+          Please, feel free to keep in touch to extrapolate and concatenate ideas.
+        """
+        return bio_text
+
+print(ojmarcelino().bio())
 ```
