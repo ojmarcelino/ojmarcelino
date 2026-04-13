@@ -1,3 +1,5 @@
+![Hello There!](https://media.giphy.com/media/Nx0rz3jtxtEre/giphy.gif)
+
 ```python
 class ojmarcelino:
     def __init__(self):
